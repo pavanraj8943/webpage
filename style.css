@@ -1,0 +1,21 @@
+*{
+    color: brown;
+}
+p{
+    color: greenyellow;
+}
+.para{
+    color: blue;
+}
+#three{
+    color: mediumturquoise;
+}
+.main-cl p {
+    color: blue;
+}
+.main-cl > p{
+   color: aqua;
+}
+.main-cl + p{
+    color: magenta;
+}

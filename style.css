@@ -1,21 +1,87 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+* {
     color: brown;
 }
-p{
-    color: greenyellow;
+
+p {
+    color: rgb(224, 89, 89);
 }
-.para{
+
+.para {
     color: blue;
 }
-#three{
+
+#three {
     color: mediumturquoise;
 }
+
 .main-cl p {
     color: blue;
 }
-.main-cl > p{
-   color: aqua;
+
+.main-cl>p {
+    color: aqua;
 }
-.main-cl + p{
+
+.main-cl+p {
     color: magenta;
+}
+
+
+
+.div #one {
+    color: red;
+}
+
+.div #two {
+    color: rgb(95, 25, 156);
+}
+
+.div #three {
+    color: #666;
+}
+
+.div #four {
+    color: hsl(90, 3%, 14%);
+}
+
+.div #five {
+    color: rgba(rgb(104, 100, 100), rgb(17, 56, 17), rgb(10, 10, 121), 0.28);
+}
+
+
+.font #new {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-variant: small-caps;
+    color: blue;
+}
+
+.font #newone {
+    font: italic small-caps 500 20px Lucida ,sans-serif ;
+    color: blue;
+}
+
+.font #style {
+    font-family: "Dancing Script", cursive;
+    color: blue;
+}
+
+.font h1{
+    text-align: center;
+}
+
+.font #twin{
+    text-align: justify;
+    text-align-last: normal;
+    direction: ltr;
+   
+}
+.font #win{
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }

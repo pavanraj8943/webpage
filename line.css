@@ -1,0 +1,42 @@
+div h2 {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(35, 35, 187);
+    text-decoration-style: dashed;
+    text-decoration-thickness: 3px;
+}
+
+h2 {
+    text-decoration: underline rgba(197, 15, 15, 0.747) dashed 4px;
+}
+
+.spac p {
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+p {
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    text-indent: 50px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.one h1 {
+    font-weight: 240px;
+    line-height: 30px;
+    text-shadow: 3px 3px 6px red;
+}
+
+.new h1{
+    color: aliceblue;
+    height: 400px;
+    width: 700px;
+    background-color: darkgoldenrod;
+    background-image: url(/image/bahubali-inspired-ethnics-for-your-traditional-closet-peachmode.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

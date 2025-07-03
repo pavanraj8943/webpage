@@ -84,4 +84,5 @@ p {
 .font #win{
     direction: rtl;
     unicode-bidi: bidi-override;
+    
 }

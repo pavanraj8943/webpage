@@ -14,6 +14,7 @@ h2 {
     word-spacing: 6px;
     text-indent: 50px;
     line-height: 30px;
+   
 }
 
 p {
@@ -22,15 +23,18 @@ p {
     text-indent: 50px;
     line-height: 30px;
     white-space: nowrap;
+
 }
 
 .one h1 {
     font-weight: 240px;
     line-height: 30px;
     text-shadow: 3px 3px 6px red;
+    border-top: 5px dashed black;
+    border-left: 5px groove green;
 }
 
-.new h1{
+.new h1 {
     color: aliceblue;
     height: 400px;
     width: 700px;
@@ -39,4 +43,48 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.border button {
+    color: rgb(106, 26, 197);
+    background-color: rgb(175, 216, 26);
+    padding: 20px 20px;
+    margin: 30px 30px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 50px;
+}
+
+.border2 button {
+    color: rgb(115, 41, 201);
+    background-color: rgb(185, 209, 98);
+    padding: 20px 50px;
+    margin: 30px 30px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    /*border-top: 5px dashed black;
+     border-left: 5px groove green;*/
+    border-color: brown rgb(32, 31, 31) blue yellow;
+}
+
+.border3 button {
+    width: 70PX;
+    height: 30PX;
+    color: rgb(252, 252, 252);
+    background-color: rgb(212, 47, 25);
+    padding: 20px 20px;
+    margin: 30px 30px;
+    border-color: rgb(113, 113, 146);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 2px rgba(65, 116, 175, 0.747);
+}
+.new p{
+    width: 100%;
+    height: 10vh;
+    padding: 30px;
+    box-sizing: content-box;
 }

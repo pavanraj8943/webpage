@@ -76,73 +76,200 @@
 /* hover */
 
 
- .sub2 button:hover{
+.sub2 button:hover {
 
-background-color: rgb(85, 58, 110);
-color: white;
+    background-color: rgb(85, 58, 110);
+    color: white;
 
- }
+}
 
 /* link */
 
 
-.first a:link{
+.first a:link {
     color: chocolate;
 }
 
-.main .box:focus{
-   background-color: rgb(189, 167, 106);
+.main .box:focus {
+    background-color: rgb(189, 167, 106);
 }
 
-.main .box{
+.main .box {
     background-color: rgb(255, 145, 0);
 }
 
-.new p:first-child{
+.new p:first-child {
     color: blue;
 }
-.first a::first-letter{
+
+.first a::first-letter {
     color: rgb(255, 0, 0);
 }
-.first a:active{
+
+.first a:active {
     color: darksalmon;
 }
 
 /* pseudo elements */
 
 
-.one p::first-line{
+.one p::first-line {
     color: darkred;
 }
-.one p::first-letter{
+
+.one p::first-letter {
     color: rgb(30, 0, 139);
 }
-.one p::after{
+
+.one p::after {
     content: "Hi bro";
 }
+
 /* .one p::before{
     content: "Hi bro";
 } */
 
-.hi{
-  display: flex;
-  flex-direction: column;
+.hi {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.hi li::marker{
+.hi li::marker {
     color: blue;
     font-size: larger;
 }
 
-button{
+button {
     background-color: blueviolet;
     height: 50px;
     width: 100px;
-    transition-duration: 2s;
+    /* transition-duration: 2s;
     transition-delay: 1s;
+    transition-property:width,color; */
 }
-button:hover{
+
+button:hover {
     background-color: brown;
+    width: 150px;
+    height: 60px;
+}
+
+
+/* never */
+
+/*   transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-out; */
+
+.never .btn1 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease;
+}
+
+.never .btn1 button:hover {
+    width: 300px;
+}
+
+.never .btn2 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in;
+}
+
+.never .btn2 button:hover {
+    width: 300px;
+}
+
+.never .btn3 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-out;
+}
+
+.never .btn3 button:hover {
+    width: 300px;
+}
+
+
+.never .btn4 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+}
+
+.never .btn4 button:hover {
+    width: 300px;
+}
+
+
+/* transform */
+
+
+.hi .btn6 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+}
+
+.hi .btn6 button:hover {
+    transform: translateX(200px);
+}
+
+.hi .btn7 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+}
+
+.hi .btn7 button:hover {
+
+    transform: rotate(360deg);
+}
+
+.hi .btn8 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    transition-duration: 3s;
+}
+
+.hi .btn8 button:hover {
+
+    transform: scale(4);
+}
+
+.hi .btn9 button {
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    transition-duration: 3s;
+}
+
+.hi .btn9 button:hover {
+
+    transform: skew(70deg);
 }

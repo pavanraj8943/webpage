@@ -1,0 +1,58 @@
+.main {
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+}
+
+.new {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    animation: infinite;
+    animation-name: creative;
+    animation-duration: 3s;
+    animation-direction: normal;
+    /* animation-play-state: running; */
+
+}
+
+@keyframes creative {
+
+/* to{
+    background-color: blue;
+}
+from{
+    background-color: brown;
+} */
+
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: rgb(165, 153, 42);
+    }
+
+    25% {
+        top: 200px;
+        left: 0px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    50% {
+        top: 200px;
+        left: 200px;
+        background-color: rgb(74, 255, 2);
+    }
+
+    75% {
+        top: 0px;
+        left: 200px;
+        background-color: brown;
+    }
+      100% {
+        top: 0px;
+        left: 0px;
+        background-color: rgb(192, 16, 16);
+    }
+}

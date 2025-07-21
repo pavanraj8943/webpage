@@ -29,18 +29,33 @@
     position: relative;
 
 }
-/* .ball1{
+.ball1{
     height: 15vh;
     width: 90px;
-    border-top-left-radius: 100%;
-    border-bottom-left-radius: 100%;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
     background-color: black;
     animation-duration: 10s;
     animation-name: sonic;
     animation-direction: normal;
     position: relative;
 
-} */
+}
+.ball2{
+    height: 15vh;
+    width: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    background-color: black;
+    animation-duration: 10s;
+    animation-name: sonic;
+    animation-direction: normal;
+    position: relative;
+
+}
+
+
+
 @keyframes sonic{
     0%{
         top: 0px;

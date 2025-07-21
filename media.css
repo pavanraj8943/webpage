@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+}
+@media only screen and (max-width:1204px){
+    .main{
+        height: 400px;
+        width: 600px;
+        background-color: blue;
+    }
+    
+}
+@media only screen and (max-width:680px){
+    .main{
+        height: 300px;
+        width: 200px;
+        background-image: url(./image/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg);
+
+    }
+}
+
+
+
+.linear{
+    height: 200px;
+    width: 500px;
+    background-image: linear-gradient(to left, yellow,red);
+}
+.radial{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    background-image: radial-gradient(circle red  ,blue  , green );
+}
+
+.circle{
+    height: 200px;
+  width: 200px;
+  background-color: red;
+  background-image: conic-gradient(red, yellow, green, blue);
+  /* border-radius: 50%; */
+}
